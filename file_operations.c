@@ -5,7 +5,7 @@
 #include <string.h>
 #include "file_operations.h"
 
-int create_and_write_file(const char *filename, const char *content) {
+int create_and_write_file(const char filename, const char content) {
     int fd;                  // File descriptor
     ssize_t bytes_written;   // Number of bytes written
 
