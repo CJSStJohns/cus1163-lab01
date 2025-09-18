@@ -83,3 +83,5 @@ int read_file_contents(const char *filename) {
 }
 
 }
+
+}
